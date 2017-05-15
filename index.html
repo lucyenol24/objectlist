@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wine Database</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    </head>
+    <body>
+      <h1>The Wine Database</h1>
+        <button id="addwine">Add Your Favorite Wine</button>
+        <br>
+        <br>
+        <div id="table">
+        <table id="wine" class="metaConfigTable">
+            <thead>
+            <tr>
+                <th>Wine</th>
+                <th>Rating</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div>
+        <div id="form">
+            <form id="myForm">
+                Wine:<br>
+                <input type="text" name="name" value="typeofwine" id="newwine">
+                <br>
+                Rating:<br>
+                <input type="text" name="myRating" value="10" id="newrating">
+                <br><br>
+                <input type="submit" value="Submit" id="submit">
+            </form> 
+        </div>
+    </body>
+</html>
