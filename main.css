@@ -1,0 +1,36 @@
+body {
+  background-color: darkred;
+  color: white;
+  font-family: 'Crimson Text', serif;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  color: pink;
+}
+
+table{
+    padding: 3px;
+    border: 1px solid black;
+}
+
+th{
+    color: antiquewhite;
+}
+
+  .metaConfigTable td {
+    padding: 3px;
+    border: 1px solid blue;
+  }
+
+  .metaConfigTable th{
+            font-weight: bolder;
+            text-align: left;
+            padding: 3px;
+            border: 1px solid blue;
+        }
+
+        .metaConfigTable caption {
+            font-weight: bolder;
+            text-align: center;
+        }
