@@ -35,10 +35,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#form").hide();
-    $("#addwine").click(function(){
+    $("#hidenseek").click(function(){
         $("#table").hide();
     });
-    $("#addwine").click(function(){
+    $("#hidenseek").click(function(){
         $("#form").show();
     });
 });
