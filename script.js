@@ -32,3 +32,27 @@ $(document).ready(function(){
         event.preventDefault();
     });
 });
+
+$(document).ready(function(){
+    $("#form").hide();
+    $("#addwine").click(function(){
+        $("#table").hide();
+    });
+    $("#addwine").click(function(){
+        $("#form").show();
+    });
+});
+
+$(document).ready(function(){
+    $("#submit").click(function(){
+        $("#form").hide();
+    });
+    $("#submit").click(function(){
+        $("#table").show();
+    });
+});
+
+function deleteRow(btn) {
+  var row = btn.parentNode.parentNode;
+  row.parentNode.removeChild(row);
+}
